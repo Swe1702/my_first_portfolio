@@ -43,3 +43,29 @@ header div{
   background-color: rgb(71, 194, 194);
   border-radius: 5px;
 }
+/* added css for the class nameed hero-banner and added background image */
+.hero-banner {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding-right: 70px;
+  padding-bottom: 10px;
+  background-image: url(https://images.unsplash.com/photo-1531315630201-bb15abeb1653?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1935&q=80);
+  height: 150px;
+}
+/* set background color for h2 tag */
+.hero-banner h2{
+  background-color: rgb(71, 194, 194);
+}
+/* added width,height for image */
+.pic img{
+  height: 100px;
+  display: flex;
+  padding-left: 110px;
+}
+/* added css for class name page-section */
+.page-section{
+  display: flex;
+  align-items: center;
+  padding-left: 200px;
+}
