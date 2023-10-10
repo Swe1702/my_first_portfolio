@@ -69,3 +69,57 @@ header div{
   align-items: center;
   padding-left: 200px;
 }
+/* This is for about me to come right */
+.page-section div{
+  text-align: right;
+}
+/* This is for text to inline with pic */
+.pic p{
+  float: right;
+  margin-left: 330px;
+  margin-top: -100px;
+  text-align: justify;
+}
+/* This is for vertical line */
+.pic {
+  border-left: 6px solid black;
+}
+/* this is for the image alignment */
+.img1{
+  width: 1200px;
+  height: 300px;
+  padding-left: 110px;
+  filter: grayscale(100%);
+  transition: all 1s ease;
+}
+/* this is for the hover effect for image 1. Please click on image for you to see new project */
+.img1:hover,.img2:hover,.img3:hover,.img4:hover,.img5:hover{
+  filter: grayscale(0%);
+  filter: gray;
+  -webkit-filter: grayscale(0%);
+  filter: none;
+  transition: 1s ease;
+}
+/* this is for image 2 and 3 alignment */
+.img2, .img4{
+  width: 596px;
+  height: 200px;
+  padding-left: 110px;
+  filter: grayscale(100%);
+  transition: all 1s ease;
+}
+/* this is for image 4 and 5 alignment */
+.img3, .img5{
+  display: inline-block;
+  height: 200px;
+  width: 596px;
+  position: relative;
+  filter: grayscale(100%);
+  transition: all 1s ease;
+}  
+/* This is for vertical line */
+.line{
+  border-left: 6px solid black;
+  height: 720px;
+  margin-left: 49px;
+}
