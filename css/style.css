@@ -123,3 +123,27 @@ header div{
   height: 720px;
   margin-left: 49px;
 }
+/* added css for footer */
+footer{
+  display: flex;
+  align-items: center;
+  padding-left: 169px;
+}
+/* This is for bullets points to vanish */
+footer nav ul li {
+  display: inline-block;
+  margin-left: 90px;
+}
+/* This is for header h2 */
+footer div {
+  text-align: right;
+  display: flex;
+  width: 100px;
+}
+
+/* This is for verticle line */
+footer nav {
+  border-left: 6px solid black;
+  height: 50px;
+  margin-left: 37px;
+}
