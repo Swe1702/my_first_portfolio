@@ -93,7 +93,7 @@ header div{
   transition: all 1s ease;
 }
 /* this is for the hover effect for image 1. Please click on image for you to see new project */
-.img1:hover,.img2:hover,.img3:hover,.img4:hover,.img5:hover{
+.img1:hover,.img2:hover,.img3:hover,.img4:hover,.img5:hover,div:hover{
   filter: grayscale(0%);
   filter: gray;
   -webkit-filter: grayscale(0%);
@@ -147,6 +147,20 @@ footer nav {
   border-left: 6px solid black;
   height: 50px;
   margin-left: 50px;
+}
+figure div{
+  font-size: large;
+  font-weight: bold;
+  margin-left: 110px;
+  text-align: center;
+  width: 100px;
+  height: 50px;
+  padding-left: 20px;
+  position: relative;
+  top:-100px;
+  background-color: blueviolet;
+  filter: grayscale(100%);
+  transition: all 1s ease;
 }
 
 /* for displays between width 1200px-900px */
