@@ -139,11 +139,12 @@ footer div {
   text-align: right;
   display: flex;
   width: 100px;
+  margin-left: -45px;
 }
 
 /* This is for verticle line */
 footer nav {
   border-left: 6px solid black;
   height: 50px;
-  margin-left: 37px;
+  margin-left: 50px;
 }
